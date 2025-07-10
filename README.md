@@ -28,3 +28,4 @@ Want to create reveal.js presentation in a graphical editor? Try <https://slides
 <div align="center">
   MIT licensed | Copyright © 2011-2024 Hakim El Hattab, https://hakim.se
 </div>
+# ls-programovani-hackathon-prezentace
