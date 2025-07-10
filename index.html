@@ -1,40 +1,110 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<section>
+					<h1>Hackathon</h1>
+					<p class="fragment">Začíná dnes ve 13:10 a končí zítra ve 13:10 (10.7. - 11.7.)</p>
+				</section>
+
+				<section>
+					<h2>Pravidla</h2>
+					<ul>
+						<li class="fragment">Týmy po <strong>3 lidech</strong></li>
+						<li class="fragment">Každý tým má <strong>24 hodin</strong></li>
+						<li class="fragment">Používejte <strong>C#</strong> (konzolová nebo GUI aplikace)</li>
+						<li class="fragment">Commituje jen <strong>jeden člen</strong> za tým</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Jaký má být výsledek?</h2>
+					<ul>
+						<li class="fragment">Fungující program nebo prototyp</li>
+						<li class="fragment">Minimálně 200-300 řádků kódu</li>
+						<li class="fragment">Komentáře, přehledná struktura, čistý kód</li>
+						<li class="fragment">Krátká <strong>prezentace</strong>(5 minut)</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Témata pro inspiraci</h2>
+					<ul>
+						<li class="fragment">🗃 Správa úkolů (To-Do aplikace)</li>
+						<li class="fragment">🎲 Jednoduchá hra (např. textové RPG)</li>
+						<li class="fragment">📊 Kalkulačka, převodník, statistická analýza</li>
+						<li class="fragment">🎵 Hudební playlist, databáze filmů nebo knih</li>
+						<li class="fragment">💡 Nebo <strong>vlastní nápad</strong>!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Hodnocení</h2>
+					<ul>
+						<li class="fragment">Funkčnost a rozsah</li>
+						<li class="fragment">Kreativita</li>
+						<li class="fragment">Kvalita kódu a přehlednost</li>
+						<li class="fragment">Prezentace projektu</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Ceny (poukázky do Alzy)</h2>
+					<ul>
+						<li class="fragment">🥇 1. místo - 3 * 2 000 Kč</li>
+						<li class="fragment">🥈 2. místo - 3 * 1 000 Kč</li>
+						<li class="fragment">🥉 3. místo - 3 * 500 Kč</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Na co nezapomenout</h2>
+					<ul>
+						<li class="fragment">Pravidelně commitovat (jeden člen)</li>
+						<li class="fragment">Komunikujte v týmu</li>
+						<li class="fragment">Dotazy směrujte na lektory</li>
+						<li class="fragment">Prezentace zítra po skončení hackathonu</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Hodně štěstí!</h2>
+				</section>
+			</section>
+
 		</div>
+	</div>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
 </html>
